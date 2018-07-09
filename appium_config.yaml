@@ -1,0 +1,9 @@
+﻿appium:
+ - devices: 0080f03c
+   port: 4729
+   config: appium -a 127.0.0.1 -p 4729 -bp 4739 -U 0080f03c
+   platformName: android
+ - devices: 00815c5b
+   port: 4725
+   config: appium -a 127.0.0.1 -p 4725 -bp 4737 -U 00815c5b
+   platformName: android
